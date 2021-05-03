@@ -1,0 +1,7 @@
+package models;
+
+public interface Subject {
+    void attach(Observer observer);
+
+    void notifyAllObserver();
+}
